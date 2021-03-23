@@ -256,6 +256,10 @@ body{
     justify-content: space-between;
 }
 
+.gallery__img img{
+    width: 370px;
+}
+
 .community__title{
     font-size: 16px;
     letter-spacing: 2px;
