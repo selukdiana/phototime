@@ -1,0 +1,490 @@
+@import url(fonts.css);
+body{
+    font-family: "Gotham Rounded";
+}
+.header h1{
+    display: none;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    padding-right: 13px;
+}
+
+.navigation{
+    max-width: 762px;
+    width: 100%;
+}
+
+.navigation__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__item{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.navigation__item img{
+    width: 55px;
+    height: 57px;
+    margin: 0 36px 0 30px;
+}
+.li__text{
+    transform: translate(0,50%);
+}
+
+
+.main__your-life{
+    background-image: url(/assets/images/your-life/fone1.jpg);
+    height: 744px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.main__your-life__content{
+    position: absolute;
+    top: 50%;
+    width: 1280px;
+    text-align: center;
+    margin-top: -36px;
+    
+}
+.main__your-life__title{
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main__your-life__subtitle{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.btn_colored{
+    margin: 25px;
+    width: 166px;
+    height: 49px;
+    border-radius: 3px;
+    background-color: #16a085;
+    border: none;
+    text-transform: uppercase;
+    z-index: 1;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #ffffff; 
+}
+.content-btn{
+    text-decoration: none;
+}
+
+.rappresent .btn_colored{
+    width: 192px;
+    height: 51px;
+}
+.main__social{
+    text-align: center;
+    padding-bottom: 23px;
+    width: 1280px;
+    position: absolute;
+    bottom: 0;
+}
+
+.main__social-icon{
+    margin: 0px 7px;
+}
+
+.rappresent{
+    width: 1280px;
+    height: 494px;
+    background-color: #f5f6f7;
+    margin: 0 auto;
+    position: relative;
+}
+
+.rappresent__content{
+    float: left;
+    padding-top:112px;
+    padding-left:128px;
+    text-align: left;
+    
+}
+
+.rappresent__content .btn_colored, .design__content .btn_colored{
+    margin: 40px 0 0 0;
+}
+
+.rappresent__img{
+    position: absolute;
+    top: 90px;
+    right: 128px;
+}
+
+.rappresent__title{
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #16a085;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.rappresent__article{
+    width: 513px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #373737;
+    margin-top: 40px;
+    line-height: 24px;
+}
+
+.design{
+    width: 1280px;
+    height: 558px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.design__img{
+    position: absolute;
+    left: 124px;
+    top: 146px;
+}
+
+.design__content{
+    float: right;
+    padding: 142px 0 0 0;
+    text-align: left;
+}
+
+.design__title{
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #16a085;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.design__article{
+    width: 513px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #373737;
+    margin-top: 34px;
+    line-height: 22px;
+}
+
+.design button{
+    width: 192px;
+    height: 51px;
+    border-radius: 0;
+}
+
+.interval{
+    margin-top: 40px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #373737;
+}
+
+
+.switch{
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.community{
+    width: 1280px;
+    height: 393px;
+    background-color: #f5f6f7;
+    padding-top: 90px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.community .switch{
+    padding-left: 1112px;
+    height: 16px;
+    margin-bottom: 10px;
+}
+
+.community__content{
+    float: left;
+    width: 300px;
+    padding-top: 44px;
+    margin-left: 65px;
+}
+
+.community__gallery{
+    width: 765px;
+    float: right;
+    margin-right: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.community__title{
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #373737;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 26px 0 19px 0;
+}
+
+.community__article{
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #373737;
+    text-align: center;
+    line-height: 12px;
+}
+
+.btn__submit{
+    background-color:#16A085;
+    width:20px;
+    height:16px;
+    border-radius: 0 3px 3px 0;
+    padding: 22px;
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+    
+.email{
+    width:260px;
+    height: 60px;
+    border: 0;
+    padding: 0 0 0 22px;
+    border-radius: 3px 0 0 3px;
+    position: absolute;
+    right: 143px;
+    bottom: 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #373737;
+    font-weight: 500; 
+    text-transform: uppercase;  
+}
+
+.subscribe{
+    height: 786px;
+    width: 1280px;
+    margin: 0 auto;
+    background-image: url(/assets/images/subscribe/Livello\ 3.png);
+    position: relative;
+}
+
+.subscribe__content{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 503px;
+    height: 116px;
+}
+
+.subscribe__title{
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.download{
+    width: 1280px;
+    height: 396px;
+    background-color: #f5f6f7;
+    margin: 0 auto;
+}
+.download__title{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #373737;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.download__article{
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #373737;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 42px;
+    text-transform: uppercase;
+}
+
+.download__content{
+    padding-top: 90px;
+}
+
+.download__ios{
+    float: left;
+}
+
+.download__android{
+    float: left;
+}
+
+.download button{
+    width: 240px;
+    height: 56px;
+    border-radius: 3px 0 0 3px;
+    background-color: #1abc9c;
+    border: none;
+    float: left; 
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.ios-icon, .android-icon{
+    width: 56px;
+    height: 56px;
+    border-radius:0 3px 3px 0;
+    background-color: #16a085;
+    float: left;
+    position: relative;
+}
+
+.ios-button{
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 0 50px 0 0;
+}
+.android-button{
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 0 40px 0 0;
+}
+
+.download__buttons{
+    margin: 0 auto;
+    height: 56px;
+    width: 618px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download img{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hr{
+    height: 12px;
+    width: 3px;
+    background-color: #16a085;
+    border: none;
+}
+
+.footer{
+    height: 132px;
+    width: 1280px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer__nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.footer__content{
+    margin-left: 126px;
+    text-align: left;
+    float: left;
+    margin-top: 40px;
+}
+.footer__logo{
+    margin-right: 126px;
+    float: right;
+    position:relative;
+    top: 50%;
+    transform: translate(0, 65%);
+}
+
+.footer__nav__item{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #373737;
+}
+    
+.footer__text{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #373737;
+    margin-top: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a :hover{
+    color:#16a085;
+    cursor: pointer;
+}
+
+.subscribe .btn__submit:hover, button:hover{
+    background: rgba(0,0,0,0);
+	color: #16a085;
+	box-shadow: inset 0 0 0 3px #16a085;
+    cursor: pointer;
+    
+}
+.ios-icon:hover, .android-icon:hover{
+    background: #1abc9c;
+	box-shadow: inset 0 0 0 3px #16a085;
+    cursor: pointer;
+}
+.switch__item:hover{
+    opacity: 0.25;
+}
+
+a img:hover{
+    opacity: 0.25;
+}
